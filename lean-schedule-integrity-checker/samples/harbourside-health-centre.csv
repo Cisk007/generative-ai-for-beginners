@@ -1,0 +1,94 @@
+# project: Harbourside Health Centre
+# data_date: 2026-03-02
+# deadline: 2026-08-28
+# holidays: 2025-12-25, 2025-12-26, 2026-01-01, 2026-04-03, 2026-04-06, 2026-05-04, 2026-05-25, 2026-08-31
+id,name,type,wbs,duration,remaining_duration,actual_start,actual_finish,baseline_start,baseline_finish,predecessors,constraint,constraint_date,trade,zone,resources
+M1000,Notice to proceed,start milestone,Milestones,0,,2025-09-01,2025-09-01,2025-09-01,2025-09-01,,,,,,
+M1010,Superstructure topped out,finish milestone,Milestones,0,,,,2026-03-04,2026-03-04,F4060,,,,,
+M1020,Building watertight,finish milestone,Milestones,0,,,,2026-05-28,2026-05-27,E5020; E5010; E5035; E5050; E5040,,,,,
+M1030,Level 3 handover to tenant,finish milestone,Milestones,0,,,,2026-07-08,2026-07-07,FO-L3A-60; FO-L3B-60,FNLT,2026-08-14,,,
+M1040,Substantial completion,finish milestone,Milestones,0,,,,2026-08-21,2026-08-20,H8000; K7020; K7030; M1030; H8040,,,,,
+M1050,Project completion,finish milestone,Milestones,0,,,,2026-08-28,2026-08-27,H8050; H8060,,,,,
+P2000,Mobilise site,task,Preconstruction & procurement,5,,2025-09-01,2025-09-05,2025-09-01,2025-09-05,M1000,,,GC,Site,
+P2010,Temporary works design,task,Preconstruction & procurement,10,,2025-09-08,2025-09-19,2025-09-08,2025-09-19,P2000,,,GC,,
+P2020,Site set-up and hoarding,task,Preconstruction & procurement,8,,2025-09-15,2025-09-25,2025-09-15,2025-09-24,P2000; P2010SS+5,,,GC,Site,
+P2030,Facade design and submittals,task,Preconstruction & procurement,30,,2025-09-01,2025-10-10,2025-09-01,2025-10-10,M1000,,,Facade,,
+P2040,Facade panel approval,task,Preconstruction & procurement,10,,2025-10-13,2025-10-24,2025-10-13,2025-10-24,P2030,,,Facade,,
+P2050,Facade panels delivered - batch 1,finish milestone,Preconstruction & procurement,0,,2025-12-01,2025-11-28,2025-12-01,2025-11-28,P2040FS+25,,,,,
+P2055,Facade panels delivered - batch 2,finish milestone,Preconstruction & procurement,0,,,,2026-03-30,2026-03-27,P2050,Mandatory start,2026-03-30,,,
+P2060,MEP plant procurement (long lead),task,Preconstruction & procurement,60,,2025-09-01,2025-11-25,2025-09-01,2025-11-21,M1000,,,MEP,,
+P2070,Lift procurement,task,Preconstruction & procurement,70,,2025-09-01,2025-12-05,2025-09-01,2025-12-05,M1000,,,Lift,,
+P2080,Utility connection - gas,task,Preconstruction & procurement,10,,,,2026-05-05,2026-05-18,,SNET,2026-05-04,Utilities,Site,
+P2090,Utility connection - electrical,task,Preconstruction & procurement,10,,,,2026-05-28,2026-06-10,M1020,,,Utilities,Site,
+S3000,Bulk excavation,task,Substructure,15,,2025-09-08,2025-09-26,2025-09-08,2025-09-26,P2000,,,Groundworks,Ground,Groundworks gang
+S3010,Piling,task,Substructure,20,,2025-09-29,2025-10-28,2025-09-29,2025-10-24,S3000,,,Groundworks,Ground,Groundworks gang
+S3020,Pile caps and ground beams,task,Substructure,12,,2025-10-29,2025-11-13,2025-10-27,2025-11-11,S3010,,,Concrete,Ground,Concrete gang
+S3030,Below-ground drainage,task,Substructure,10,,2025-11-14,2025-11-27,2025-11-12,2025-11-25,S3020,,,Groundworks,Ground,Groundworks gang
+S3040,Ground floor slab,task,Substructure,8,,2025-11-28,2025-12-09,2025-11-26,2025-12-05,S3030,,,Concrete,Ground,Concrete gang
+F4000,Columns and core - level 1,task,Superstructure,6,,2025-12-10,2025-12-19,2025-12-08,2025-12-15,S3040,,,Concrete,L1,Concrete gang
+F4010,Slab - level 2,task,Superstructure,8,,2025-12-22,2026-01-07,2025-12-16,2025-12-29,F4000,,,Concrete,L2,Concrete gang
+F4020,Columns and core - level 2,task,Superstructure,6,,2026-01-08,2026-01-16,2025-12-30,2026-01-07,F4010,,,Concrete,L2,Concrete gang
+F4030,Slab - level 3,task,Superstructure,8,,2026-01-19,2026-01-29,2026-01-08,2026-01-19,F4020,,,Concrete,L3,Concrete gang
+F4040,Columns and core - level 3,task,Superstructure,6,,2026-01-30,2026-02-09,2026-01-20,2026-01-27,F4030,,,Concrete,L3,Concrete gang
+F4050,Roof slab,task,Superstructure,8,,2026-02-10,2026-02-24,2026-01-28,2026-02-06,F4040,,,Concrete,Roof,Concrete gang
+F4055,Cure roof slab,task,Superstructure,7.1429,4.2857,2026-02-25,,2026-02-09,2026-02-18,F4050,,,Concrete,Roof,Concrete gang
+F4060,Roof steel and plant deck,task,Superstructure,10,,,,2026-02-18,2026-03-04,F4055,,,Steel,Roof,Steel erectors
+E5000,Scaffold erection,task,Envelope,10,,2026-01-30,2026-02-19,2026-01-20,2026-02-02,F4030,,,Scaffolding,Envelope,Scaffold crew
+E5010,Roof insulation,task,Envelope,5,,,,2026-03-04,2026-03-11,F4060; F4050,,,Roofing,Roof,Roofing crew
+E5020,Roof membrane,task,Envelope,6,,,,2026-03-11,2026-03-19,E5010,,,Roofing,Roof,Roofing crew
+E5030,Curtain wall - north and east elevations,task,Envelope,48,56,2026-02-20,,2026-02-03,2026-04-13,P2050; E5000,,,Facade,Envelope,Facade fixers
+E5035,Curtain wall - south and west elevations,task,Envelope,30,,,,2026-04-14,2026-05-27,P2055; E5030,,,Facade,Envelope,Facade fixers
+E5040,Brickwork - plant enclosure,task,Envelope,25,,,,2026-03-04,2026-04-10,F4060,,,Masonry,Roof,Bricklayers
+E5050,Windows and louvres,task,Envelope,15,,,,2026-04-14,2026-05-05,E5030,,,,Envelope,
+E5060,Scaffold strike - east elevation,task,Envelope,5,3,2026-03-04,,2026-04-14,2026-04-20,E5030,,,Scaffolding,Envelope,Scaffold crew
+K7000,MEP risers and primary distribution,task,MEP & commissioning,60,51,2026-01-12,,2026-01-08,2026-04-01,P2060; F4020,,,MEP,Risers,MEP fitters
+K7010,Lift installation,task,MEP & commissioning,25,,,,2026-02-12,2026-03-19,P2070FF; E5020FF,,,Lift,Core,Lift engineers
+K7020,Commissioning and testing,task,MEP & commissioning,50,,,,2026-06-12,2026-08-20,K7000; K7010; K7040; P2080; FO-L3B-10; K7050,,,Commissioning,Building,Commissioning engineers
+K7030,Fire alarm and life safety tests,task,MEP & commissioning,10,,,,2026-07-10,2026-07-23,K7020SS+20,,,Commissioning,Building,Commissioning engineers
+K7040,Permanent power on,task,MEP & commissioning,1,,,,2026-06-11,2026-06-11,P2090,,,MEP,Building,MEP fitters
+K7050,Temporary power off,task,MEP & commissioning,1,,,,2026-06-10,2026-06-10,K7040SF,,,MEP,Building,MEP fitters
+H8000,External works and paving,task,External works & handover,25,,,,2026-04-21,2026-05-27,E5060,,,Groundworks,Site,
+H8010,Landscaping,task,External works & handover,15,,,,2026-06-01,2026-06-19,,SNET,2026-06-01,Landscaping,Site,
+H8020,Install signage,task,External works & handover,5,,,,2026-06-15,2026-06-19,FO-L1A-60,,,Signage,Building,
+H8030,Final clean,task,External works & handover,10,,,,2026-07-08,2026-07-21,FO-L3B-60,,,GC,Building,
+H8040,Snagging and defects,task,External works & handover,15,,,,2026-07-22,2026-08-11,H8030,,,GC,Building,
+H8050,Issue handover documents,task,External works & handover,0,,,,2026-08-21,2026-08-20,M1040,,,GC,,
+H8060,Demobilise site,task,External works & handover,5,,,,2026-08-21,2026-08-27,M1040; L9000,,,GC,Site,
+L9000,Site management and preliminaries,loe,Preconstruction & procurement,0,125,2025-09-01,,2025-09-01,2026-08-28,M1000SS,,,GC,,
+FO-L1A-10,MEP first fix - L1-A,task,Fit-out > Level 1,4,2,2026-02-02,,2026-01-22,2026-01-27,F4020; K7000SS+10,,,MEP,L1-A,MEP fitters
+FO-L1A-20,Partition framing and boarding - L1-A,task,Fit-out > Level 1,6,5,2026-02-26,,2026-01-28,2026-02-04,FO-L1A-10,,,Drylining,L1-A,Dryliners
+FO-L1A-30,"Tape, joint and paint - L1-A",task,Fit-out > Level 1,4,,,,2026-05-28,2026-06-02,M1020; FO-L1A-20SS+2; FO-L1A-20FF+1,,,Decorating,L1-A,Decorators
+FO-L1A-40,Ceilings - L1-A,task,Fit-out > Level 1,3,,,,2026-06-03,2026-06-05,QA-L1-FS; FO-L1A-30; M1020,,,Ceilings,L1-A,Ceiling fixers
+FO-L1A-50,Floor finishes - L1-A,task,Fit-out > Level 1,3,,,,2026-06-08,2026-06-10,FO-L1A-40,,,Flooring,L1-A,Floor layers
+FO-L1A-60,Doors and ironmongery - L1-A,task,Fit-out > Level 1,2,,,,2026-06-11,2026-06-12,FO-L1A-50,,,Joinery,L1-A,Joiners
+FO-L1B-10,MEP first fix - L1-B,task,Fit-out > Level 1,5,,2026-02-11,2026-02-18,2026-01-28,2026-02-03,FO-L1A-10,,,MEP,L1-B,MEP fitters
+FO-L1B-20,Partition framing and boarding - L1-B,task,Fit-out > Level 1,7,3,2026-02-20,,2026-02-05,2026-02-13,FO-L1B-10; FO-L1A-20,,,Drylining,L1-B,Dryliners
+FO-L1B-30,"Tape, joint and paint - L1-B",task,Fit-out > Level 1,5,4,2026-02-24,,2026-02-10,2026-02-16,FO-L1B-20SS+2; FO-L1B-20FF+1,,,Decorating,L1-B,Decorators
+FO-L1B-40,Ceilings - L1-B,task,Fit-out > Level 1,4,,,,2026-06-08,2026-06-11,QA-L1-FS; FO-L1B-30; M1020; FO-L1A-40,,,Ceilings,L1-B,Ceiling fixers
+FO-L1B-50,Floor finishes - L1-B,task,Fit-out > Level 1,4,,,,2026-06-12,2026-06-17,FO-L1B-40; FO-L1A-50,,,Flooring,L1-B,Floor layers
+FO-L1B-60,Doors and ironmongery - L1-B,task,Fit-out > Level 1,2,,,,2026-06-18,2026-06-19,FO-L1B-50,,,Joinery,L1-B,Joiners
+FO-L2A-10,MEP first fix - L2-A,task,Fit-out > Level 2,4,,2026-02-19,2026-02-27,2026-02-04,2026-02-09,F4040; FO-L1B-10,,,MEP,L2-A,MEP fitters
+FO-L2A-20,Partition framing and boarding - L2-A,task,Fit-out > Level 2,6,,,,2026-02-16,2026-02-23,FO-L2A-10; FO-L1B-20,,,Drylining,L2-A,Dryliners
+FO-L2A-30,"Tape, joint and paint - L2-A",task,Fit-out > Level 2,4,,,,2026-02-20,2026-02-25,FO-L2A-20FS-2,,,Decorating,L2-A,Decorators
+FO-L2A-40,Ceilings - L2-A,task,Fit-out > Level 2,3,,,,2026-06-12,2026-06-16,FO-L2A-30; M1020; FO-L1B-40,,,Ceilings,L2-A,Ceiling fixers
+FO-L2A-50,Floor finishes - L2-A,task,Fit-out > Level 2,3,,,,2026-06-18,2026-06-22,FO-L2A-40; FO-L1B-50,,,Flooring,L2-A,Floor layers
+FO-L2A-60,Doors and ironmongery - L2-A,task,Fit-out > Level 2,2,,,,2026-06-23,2026-06-24,FO-L2A-50,,,Joinery,L2-A,Joiners
+FO-L2B-10,MEP first fix - L2-B,task,Fit-out > Level 2,7,,,,2026-02-10,2026-02-18,FO-L2A-10,,,MEP,L2-B,MEP fitters
+FO-L2B-20,Partition framing and boarding - L2-B,task,Fit-out > Level 2,11,,,,2026-02-24,2026-03-10,FO-L2B-10; FO-L2A-20,,,Drylining,L2-B,Dryliners
+FO-L2B-30,"Tape, joint and paint - L2-B",task,Fit-out > Level 2,7,,,,2026-03-03,2026-03-11,FO-L2B-20SS+2; FO-L2B-20FF+1,,,Decorating,L2-B,Decorators
+FO-L2B-40,Ceilings - L2-B,task,Fit-out > Level 2,5,,,,2026-06-17,2026-06-23,FO-L2B-30; M1020; FO-L2A-40,,,Ceilings,L2-B,Ceiling fixers
+FO-L2B-50,Floor finishes - L2-B,task,Fit-out > Level 2,5,,,,2026-06-24,2026-06-30,FO-L2B-40; FO-L2A-50,,,Flooring,L2-B,Floor layers
+FO-L2B-60,Doors and ironmongery - L2-B,task,Fit-out > Level 2,4,,,,2026-07-01,2026-07-06,FO-L2B-50,,,Joinery,L2-B,Joiners
+FO-L3A-10,MEP first fix - L3-A,task,Fit-out > Level 3,3,,,,2026-03-19,2026-03-24,E5020; FO-L2B-10,,,MEP,L3-A,MEP fitters
+FO-L3A-20,Partition framing and boarding - L3-A,task,Fit-out > Level 3,4,,,,2026-03-24,2026-03-30,FO-L3A-10; FO-L2B-20,,,Drylining,L3-A,Dryliners
+FO-L3A-30,"Tape, joint and paint - L3-A",task,Fit-out > Level 3,3,,,,2026-03-26,2026-03-31,FO-L3A-20FS-2,,,Decorating,L3-A,Decorators
+FO-L3A-40,Ceilings - L3-A,task,Fit-out > Level 3,2,,,,2026-06-24,2026-06-25,FO-L3A-30; M1020; FO-L2B-40,,,Ceilings,L3-A,Ceiling fixers
+FO-L3A-50,Floor finishes - L3-A,task,Fit-out > Level 3,2,,,,2026-07-01,2026-07-02,FO-L3A-40; FO-L2B-50,,,Flooring,L3-A,Floor layers
+FO-L3A-60,Doors and ironmongery - L3-A,task,Fit-out > Level 3,1,,,,2026-07-03,2026-07-03,FO-L3A-50,,,Joinery,L3-A,Joiners
+FO-L3B-10,MEP first fix - L3-B,task,Fit-out > Level 3,3,,,,2026-03-24,2026-03-27,FO-L3A-10,,,MEP,L3-B,MEP fitters
+FO-L3B-20,Partition framing and boarding - L3-B,task,Fit-out > Level 3,4,,,,2026-03-30,2026-04-07,FO-L3B-10; FO-L3A-20,,,Drylining,L3-B,Dryliners
+FO-L3B-30,"Tape, joint and paint - L3-B",task,Fit-out > Level 3,3,,,,2026-04-01,2026-04-08,FO-L3B-20SS+2; FO-L3B-20FF+1,,,Decorating,L3-B,Decorators
+FO-L3B-40,Ceilings - L3-B,task,Fit-out > Level 3,2,,,,2026-06-26,2026-06-29,FO-L3B-30; M1020; FO-L3A-40,,,Ceilings,L3-B,Ceiling fixers
+FO-L3B-50,Floor finishes - L3-B,task,Fit-out > Level 3,2,,,,2026-07-03,2026-07-06,FO-L3B-40; FO-L3A-50,,,Flooring,L3-B,Floor layers
+FO-L3B-60,Doors and ironmongery - L3-B,task,Fit-out > Level 3,1,,,,2026-07-07,2026-07-07,FO-L3B-50,,,Joinery,L3-B,Joiners
+QA-L1-FS,Fire stopping inspection - level 1,task,Fit-out > Level 1,1,,,,2026-02-16,2026-02-16,FO-L1B-20,,,,L1-B,

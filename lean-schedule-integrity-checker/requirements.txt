@@ -1,0 +1,8 @@
+# The analysis engine and the CLI use only the Python standard library (3.10+).
+# Local web app
+flask>=3.0
+# Optional AI planning assistant (Azure OpenAI in Microsoft Foundry, or OpenAI)
+openai>=1.40
+python-dotenv>=1.0
+# Tests
+pytest>=8.0

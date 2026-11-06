@@ -1,0 +1,129 @@
+week,activity_id,task,trade,planned,completed,reason
+2026-01-05,F4010,Slab - level 2,Concrete,yes,no,External / permits: Heavy rain - roof works stopped
+2026-01-05,F4020,Columns and core - level 2,Concrete,yes,yes,
+2026-01-05,,Set out next zone (week 1),GC,yes,no,External / permits: Heavy rain - roof works stopped
+2026-01-05,,Survey and as-built records (week 1),GC,yes,yes,
+2026-01-05,,Material call-off for next week (week 1),MEP,yes,no,Prerequisite work: Scaffold lift not adapted
+2026-01-05,,Housekeeping and waste removal (week 1),GC,yes,yes,
+2026-01-05,,Edge protection checks (week 1),Scaffolding,yes,yes,
+2026-01-05,,Set out next zone (week 1),GC,yes,no,Prerequisite work: Slab edge not handed over
+2026-01-05,,Survey and as-built records (week 1),GC,yes,yes,
+2026-01-05,,Material call-off for next week (week 1),MEP,yes,no,External / permits: Heavy rain - roof works stopped
+2026-01-05,,Housekeeping and waste removal (week 1),GC,yes,yes,
+2026-01-05,,Edge protection checks (week 1),Scaffolding,yes,no,Prerequisite work: Scaffold lift not adapted
+2026-01-05,,Set out next zone (week 1),GC,yes,yes,
+2026-01-05,,Survey and as-built records (week 1),GC,yes,yes,
+2026-01-05,,Material call-off for next week (week 1),MEP,yes,no,Information / design: Drawing revision late
+2026-01-05,,Housekeeping and waste removal (week 1),GC,yes,yes,
+2026-01-12,F4020,Columns and core - level 2,Concrete,yes,yes,
+2026-01-12,,Edge protection checks (week 2),Scaffolding,yes,yes,
+2026-01-12,,Set out next zone (week 2),GC,yes,no,Information / design: Drawing revision late
+2026-01-12,,Survey and as-built records (week 2),GC,yes,no,Prerequisite work: Previous trade not finished
+2026-01-12,,Material call-off for next week (week 2),MEP,yes,yes,
+2026-01-12,,Housekeeping and waste removal (week 2),GC,yes,yes,
+2026-01-12,,Edge protection checks (week 2),Scaffolding,yes,yes,
+2026-01-12,,Set out next zone (week 2),GC,yes,no,Equipment: MEWP not available
+2026-01-12,,Survey and as-built records (week 2),GC,yes,yes,
+2026-01-12,,Material call-off for next week (week 2),MEP,yes,no,Prerequisite work: Scaffold lift not adapted
+2026-01-12,,Housekeeping and waste removal (week 2),GC,yes,no,Materials: Wrong panel size delivered
+2026-01-12,,Edge protection checks (week 2),Scaffolding,yes,yes,
+2026-01-12,,Set out next zone (week 2),GC,yes,yes,
+2026-01-12,,Survey and as-built records (week 2),GC,yes,no,Materials: Wrong panel size delivered
+2026-01-12,,Material call-off for next week (week 2),MEP,yes,yes,
+2026-01-12,,Housekeeping and waste removal (week 2),GC,yes,yes,
+2026-01-19,F4030,Slab - level 3,Concrete,yes,no,Equipment: MEWP not available
+2026-01-19,K7000,MEP risers and primary distribution,MEP,yes,yes,
+2026-01-19,,Set out next zone (week 3),GC,yes,no,Information / design: RFI 108 unanswered
+2026-01-19,,Survey and as-built records (week 3),GC,yes,no,Information / design: RFI 108 unanswered
+2026-01-19,,Material call-off for next week (week 3),MEP,yes,yes,
+2026-01-19,,Housekeeping and waste removal (week 3),GC,yes,no,External / permits: High wind - crane stood down
+2026-01-19,,Edge protection checks (week 3),Scaffolding,yes,yes,
+2026-01-19,,Set out next zone (week 3),GC,yes,yes,
+2026-01-19,,Survey and as-built records (week 3),GC,yes,yes,
+2026-01-19,,Material call-off for next week (week 3),MEP,yes,yes,
+2026-01-19,,Housekeeping and waste removal (week 3),GC,yes,no,Labour / crew: Gang moved to another site
+2026-01-19,,Edge protection checks (week 3),Scaffolding,yes,no,Materials: Wrong panel size delivered
+2026-01-19,,Set out next zone (week 3),GC,yes,yes,
+2026-01-19,,Survey and as-built records (week 3),GC,yes,yes,
+2026-01-19,,Material call-off for next week (week 3),MEP,yes,no,Equipment: Hoist breakdown
+2026-01-19,,Housekeeping and waste removal (week 3),GC,yes,yes,
+2026-01-26,F4030,Slab - level 3,Concrete,yes,no,External / permits: Heavy rain - roof works stopped
+2026-01-26,F4040,Columns and core - level 3,Concrete,yes,no,External / permits: Heavy rain - roof works stopped
+2026-01-26,E5000,Scaffold erection,Scaffolding,yes,no,Materials: Wrong panel size delivered
+2026-01-26,K7000,MEP risers and primary distribution,MEP,yes,no,External / permits: High wind - crane stood down
+2026-01-26,,Material call-off for next week (week 4),MEP,yes,yes,
+2026-01-26,,Housekeeping and waste removal (week 4),GC,yes,no,Prerequisite work: Scaffold lift not adapted
+2026-01-26,,Edge protection checks (week 4),Scaffolding,yes,yes,
+2026-01-26,,Set out next zone (week 4),GC,yes,yes,
+2026-01-26,,Survey and as-built records (week 4),GC,yes,yes,
+2026-01-26,,Material call-off for next week (week 4),MEP,yes,no,Equipment: MEWP not available
+2026-01-26,,Housekeeping and waste removal (week 4),GC,yes,yes,
+2026-01-26,,Edge protection checks (week 4),Scaffolding,yes,yes,
+2026-01-26,,Set out next zone (week 4),GC,yes,yes,
+2026-01-26,,Survey and as-built records (week 4),GC,yes,yes,
+2026-01-26,,Material call-off for next week (week 4),MEP,yes,yes,
+2026-01-26,,Housekeeping and waste removal (week 4),GC,yes,yes,
+2026-02-02,F4040,Columns and core - level 3,Concrete,yes,no,Information / design: RFI 108 unanswered
+2026-02-02,E5000,Scaffold erection,Scaffolding,yes,no,External / permits: Heavy rain - roof works stopped
+2026-02-02,K7000,MEP risers and primary distribution,MEP,yes,no,Materials: Brackets not delivered
+2026-02-02,FO-L1A-10,MEP first fix - L1-A,MEP,yes,yes,
+2026-02-02,,Material call-off for next week (week 5),MEP,yes,yes,
+2026-02-02,,Housekeeping and waste removal (week 5),GC,yes,yes,
+2026-02-02,,Edge protection checks (week 5),Scaffolding,yes,yes,
+2026-02-02,,Set out next zone (week 5),GC,yes,yes,
+2026-02-02,,Survey and as-built records (week 5),GC,yes,yes,
+2026-02-02,,Material call-off for next week (week 5),MEP,yes,yes,
+2026-02-02,,Housekeeping and waste removal (week 5),GC,yes,yes,
+2026-02-02,,Edge protection checks (week 5),Scaffolding,yes,yes,
+2026-02-02,,Set out next zone (week 5),GC,yes,no,Materials: Membrane short-shipped
+2026-02-02,,Survey and as-built records (week 5),GC,yes,yes,
+2026-02-02,,Material call-off for next week (week 5),MEP,yes,no,External / permits: Heavy rain - roof works stopped
+2026-02-02,,Housekeeping and waste removal (week 5),GC,yes,yes,
+2026-02-09,F4040,Columns and core - level 3,Concrete,yes,yes,
+2026-02-09,F4050,Roof slab,Concrete,yes,yes,
+2026-02-09,E5000,Scaffold erection,Scaffolding,yes,yes,
+2026-02-09,K7000,MEP risers and primary distribution,MEP,yes,no,Labour / crew: Gang moved to another site
+2026-02-09,FO-L1A-10,MEP first fix - L1-A,MEP,yes,yes,
+2026-02-09,FO-L1A-20,Partition framing and boarding - L1-A,Drylining,yes,no,Prerequisite work: Previous trade not finished
+2026-02-09,FO-L1B-10,MEP first fix - L1-B,MEP,yes,yes,
+2026-02-09,,Set out next zone (week 6),GC,yes,yes,
+2026-02-09,,Survey and as-built records (week 6),GC,yes,no,Prerequisite work: Slab edge not handed over
+2026-02-09,,Material call-off for next week (week 6),MEP,yes,yes,
+2026-02-09,,Housekeeping and waste removal (week 6),GC,yes,yes,
+2026-02-09,,Edge protection checks (week 6),Scaffolding,yes,yes,
+2026-02-09,,Set out next zone (week 6),GC,yes,no,Information / design: RFI 108 unanswered
+2026-02-09,,Survey and as-built records (week 6),GC,yes,yes,
+2026-02-09,,Material call-off for next week (week 6),MEP,yes,yes,
+2026-02-09,,Housekeeping and waste removal (week 6),GC,yes,yes,
+2026-02-16,F4050,Roof slab,Concrete,yes,yes,
+2026-02-16,E5000,Scaffold erection,Scaffolding,yes,yes,
+2026-02-16,E5030,Curtain wall - north and east elevations,Facade,yes,yes,
+2026-02-16,K7000,MEP risers and primary distribution,MEP,yes,yes,
+2026-02-16,FO-L1A-20,Partition framing and boarding - L1-A,Drylining,yes,yes,
+2026-02-16,FO-L1B-10,MEP first fix - L1-B,MEP,yes,yes,
+2026-02-16,FO-L1B-20,Partition framing and boarding - L1-B,Drylining,yes,yes,
+2026-02-16,FO-L2A-10,MEP first fix - L2-A,MEP,yes,yes,
+2026-02-16,,Survey and as-built records (week 7),GC,yes,yes,
+2026-02-16,,Material call-off for next week (week 7),MEP,yes,yes,
+2026-02-16,,Housekeeping and waste removal (week 7),GC,yes,no,Information / design: Drawing revision late
+2026-02-16,,Edge protection checks (week 7),Scaffolding,yes,yes,
+2026-02-16,,Set out next zone (week 7),GC,yes,yes,
+2026-02-16,,Survey and as-built records (week 7),GC,yes,no,Labour / crew: Crew short - two operatives off
+2026-02-16,,Material call-off for next week (week 7),MEP,yes,no,Information / design: Drawing revision late
+2026-02-16,,Housekeeping and waste removal (week 7),GC,yes,no,Information / design: Submittal not approved
+2026-02-23,F4050,Roof slab,Concrete,yes,no,Materials: Brackets not delivered
+2026-02-23,F4055,Cure roof slab,Concrete,yes,yes,
+2026-02-23,E5030,Curtain wall - north and east elevations,Facade,yes,yes,
+2026-02-23,K7000,MEP risers and primary distribution,MEP,yes,yes,
+2026-02-23,FO-L1B-20,Partition framing and boarding - L1-B,Drylining,yes,yes,
+2026-02-23,FO-L1B-30,"Tape, joint and paint - L1-B",Decorating,yes,yes,
+2026-02-23,FO-L2A-10,MEP first fix - L2-A,MEP,yes,yes,
+2026-02-23,,Set out next zone (week 8),GC,yes,no,Materials: Brackets not delivered
+2026-02-23,,Survey and as-built records (week 8),GC,yes,yes,
+2026-02-23,,Material call-off for next week (week 8),MEP,yes,yes,
+2026-02-23,,Housekeeping and waste removal (week 8),GC,yes,yes,
+2026-02-23,,Edge protection checks (week 8),Scaffolding,yes,yes,
+2026-02-23,,Set out next zone (week 8),GC,yes,no,Prerequisite work: Slab edge not handed over
+2026-02-23,,Survey and as-built records (week 8),GC,yes,yes,
+2026-02-23,,Material call-off for next week (week 8),MEP,yes,yes,
+2026-02-23,,Housekeeping and waste removal (week 8),GC,yes,yes,

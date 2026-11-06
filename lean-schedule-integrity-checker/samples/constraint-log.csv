@@ -1,0 +1,21 @@
+id,activity_id,description,category,owner,identified,need_by,status,closed
+C001,FO-L1A-20,Partition layout drawings rev C for level 1,Information / design,Architect,2026-02-02,2026-02-27,open,
+C002,FO-L2A-10,MEP first fix materials for level 2 on site,Materials,MEP subcontractor,2026-02-09,2026-03-13,open,
+C003,E5035,Batch 2 panel delivery slot confirmed,Materials,Facade subcontractor,2026-02-02,2026-04-03,open,
+C004,K7010,Lift shaft verticality survey,Prerequisite work,Lift contractor,2026-01-26,2026-02-20,open,
+C005,FO-L1B-10,Access to L1-B blocked by scaffold stair,Space / access,Site manager,2026-02-09,2026-02-27,closed,2026-02-25
+C006,H8000,Highway permit for paving works,External / permits,Site manager,2026-02-16,2026-05-15,open,
+C007,FO-L1A-30,Paint specification approval,Information / design,Client,2026-02-16,2026-03-09,open,
+C008,E5050,Louvre RFI 112 answered,Information / design,Architect,2026-01-12,2026-02-06,closed,2026-02-13
+C009,FO-L2B-20,Second drylining crew for the larger L2-B zone,Labour / crew,Drylining subcontractor,2026-02-23,2026-03-27,open,
+C010,FO-L1A-10,Crane time for MEP plant lift,Equipment,Site manager,2026-01-26,2026-02-13,closed,2026-02-12
+C011,TC-01,Tower crane dismantle date agreed,Equipment,Crane hire,2026-02-02,2026-03-20,open,
+C012,QA-L1-FS,Fire stopping inspector booked,External / permits,QA manager,2026-02-16,2026-02-24,open,
+C013,FO-L1B-20,Board delivery for level 1,Materials,Drylining subcontractor,2026-02-09,2026-03-04,open,
+C014,E5030,Facade bracket redesign at grid C,Information / design,Facade designer,2025-12-15,2026-01-16,closed,2026-01-28
+C015,K7000,Riser access through level 2 slab openings,Space / access,Site manager,2026-01-12,2026-01-30,closed,2026-01-29
+C016,E5020,Roof membrane weather window,External / permits,Roofing subcontractor,2026-01-19,2026-02-27,closed,2026-02-20
+C017,FO-L2A-20,Level 2 setting out complete,Prerequisite work,Site engineer,2026-02-23,2026-03-20,open,
+C018,K7020,Commissioning management plan approved,Information / design,MEP consultant,2026-02-16,2026-06-30,open,
+C019,FO-L1A-40,Ceiling grid colour sample sign-off,Information / design,Client,2026-02-23,2026-03-11,open,
+C020,E5000,Scaffold design check,Prerequisite work,Temporary works coordinator,2025-11-03,2025-11-21,closed,2025-11-20
